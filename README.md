@@ -54,7 +54,7 @@ void print(const T &a)
 
 ```c++
 template <typename T>
-void times2(const T &a)
+void times2(T &a)
 {
     for_each(a.begin(),a.end(),[](int &x){return 2*x;});
 }
